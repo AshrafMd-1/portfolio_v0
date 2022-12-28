@@ -1,0 +1,121 @@
+body {
+    background: #000f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container1 {
+
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+    margin: 10px;
+    background: #ff0000;
+    border-radius: 30px;
+    transition-property: width, height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    animation: color-change 18s ease-in-out 0.5s infinite;
+}
+
+.container2 {
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+    margin: 10px;
+    background: #ff0000;
+    border-radius: 30px;
+    transition-property: width, height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    animation: color-change 18s ease-in-out 1s infinite;
+}
+
+.container3 {
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+    margin: 10px;
+    background: #ff0000;
+    transition-property: width, height;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 30px;
+    animation: color-change 18s ease-in-out 1.5s infinite;
+
+
+}
+
+.container1:hover {
+    width: 40%;
+    height: 40%;
+}
+
+.container2:hover {
+    width: 40%;
+    height: 40%;
+}
+
+.container3:hover {
+    width: 40%;
+    height: 40%;
+}
+
+
+@keyframes color-change {
+    0% {
+        background: #ff0000;
+        transform: translate(0, 0);
+
+    }
+    16% {
+        background: #ffff00;
+        transform: translate(100px, 0);
+
+    }
+    32% {
+        background: #00ff00;
+        transform: translate(100px, 100px);
+
+    }
+    48% {
+        background: #00ffff;
+        transform: translate(0px, 100px);
+
+    }
+    64% {
+        background: #0000ff;
+        transform: translate(0, 0px);
+
+    }
+    80% {
+        background: #ff00ff;
+        transform: translate(-100px, -100px);
+
+
+    }
+    100% {
+        background: #ff0000;
+        transform: translate(0, 0);
+
+    }
+}
+
+@keyframes loc-change {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+
+
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+h1 {
+    text-align: center;
+}
