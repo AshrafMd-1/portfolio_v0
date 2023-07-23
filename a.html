@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Download FML File</title>
+</head>
+<body>
+  <script>
+    // Function to trigger the download
+    function downloadFileAndClose() {
+      const fileName = 'fml.txt';
+      const fileURL ='fml-lab.txt'
+
+      // Create a temporary link element
+      const link = document.createElement('a');
+      link.href = fileURL;
+      link.download = fileName;
+
+      // Append the link to the document
+      document.body.appendChild(link);
+
+      // Programmatically trigger the download
+      link.click();
+
+      // Remove the link from the document
+      document.body.removeChild(link);
+
+      // Close the current tab/window after a short delay (adjust the time in milliseconds if needed)
+      setTimeout(function () {
+        window.close();
+      }, 1000); // 1000 milliseconds = 1 second
+    }
+
+    // Trigger the download and close when the page is loaded
+    window.onload = function () {
+      downloadFileAndClose();
+    };
+  </script>
+</body>
+</html>
