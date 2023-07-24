@@ -1,4 +1,4 @@
-~~~~~~~~~~~~~~~~~~~~~~~~FindS Algorithm~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-1 FindS Algorithm ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import csv
 
@@ -25,7 +25,7 @@ for i in range(0, len(a)):
 print("\n The Maximally specific hypothesis for the training instance is ")
 print(hypothesis)
 
-~~~~~~~~~~~~~~~~~~~~~~~~Candidate Elimination Alogorithm~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-2 Candidate Elimination Alogorithm ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import numpy as np
 import pandas as pd
@@ -73,7 +73,7 @@ s_final, g_final = learn(concepts, target)
 print("Final Specific_h:", s_final, sep="\n")
 print("Final General_h:", g_final, sep="\n")
 
-~~~~~~~~~~~~~~~~~~~~~~~~ID3 ALGORITHM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-3 ID3 ALGORITHM ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import math
 import csv
@@ -198,7 +198,7 @@ for xtest in testdata:
     print("The label for test instance:",end="   ")
     classify(node1,xtest,features)
     
-~~~~~~~~~~~~~~~~~~~~~~~~ARTIFICIAL NEURAL NETWORK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-4 ARTIFICIAL NEURAL NETWORK ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -239,7 +239,7 @@ print('\n The value of Recall', metrics.recall_score(ytest,predicted))
 
 print("Predicted Value for individual Test Data:", predictTestData)
 
-~~~~~~~~~~~~~~~~~~~~~~~~NAÏVE BAYESIAN CLASSIFIER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-5 NAÏVE BAYESIAN CLASSIFIER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import csv
 import random
@@ -353,7 +353,7 @@ def main():
  
 main()
 
-~~~~~~~~~~~~~~~~~~~~~~~~Calculate your data set’s accuracy, precision, and recall using the Na¨ıve Bayesian Classifier model using naivetext.csv~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-6 Calculate your data set’s accuracy, precision, and recall using the Na¨ıve Bayesian Classifier model using naivetext.csv ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import pandas as pd
 
@@ -402,7 +402,7 @@ print('\n The value of Precision', metrics.precision_score(ytest,predicted))
 print('\n The value of Recall', metrics.recall_score(ytest,predicted))
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~Calculate your data set’s accuracy, precision, and recall using the Na¨ıve Bayesian Classifier model using naivetext.csv~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-7 Calculate your data set’s accuracy, precision, and recall using the Na¨ıve Bayesian Classifier model using naivetext.csv ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import numpy as np
 import pandas as pd
@@ -435,7 +435,7 @@ print('\n 2. Probability of HeartDisease given evidence= cp ')
 q2=HeartDiseasetest_infer.query(variables=['heartdisease'],evidence={'cp':2})
 print(q2)
 
-~~~~~~~~~~~~~~~~~~~~~~~~Apply the EM algorithm and k-Means algorithm for clustering, compare the results of these two algorithms, and comment on the quality of clustering using iris dataset.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-8 Apply the EM algorithm and k-Means algorithm for clustering, compare the results of these two algorithms, and comment on the quality of clustering using iris dataset. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 import matplotlib.pyplot as plt
 from sklearn import datasets
@@ -484,7 +484,7 @@ plt.ylabel('Petal Width')
 print('The accuracy score of EM: ',sm.accuracy_score(y, y_gmm))
 print('The Confusion matrix of EM: ',sm.confusion_matrix(y, y_gmm))
 
-~~~~~~~~~~~~~~~~~~~~~~~~Implement the non-parametric Locally Weighted Regression algorithm in order to fit data points using tips.csv.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~ Week-9 Implement the non-parametric Locally Weighted Regression algorithm in order to fit data points using tips.csv. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
