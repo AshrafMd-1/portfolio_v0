@@ -1,5 +1,3 @@
-<pre>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,6 +87,3 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.18/js/adminlte.min.js"></script>
 </body>
 </html>
-
- 
-</pre>
