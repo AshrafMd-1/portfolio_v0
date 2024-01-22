@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Download FML Files</title>
+		<title>Download ISP Files</title>
 	</head>
 	<body>
 		<script>
 			// Function to trigger the download
 			function downloadFileAndClose() {
-				const fileName = "fml.txt";
-				const fileURL = "fml.txt";
+				const fileName = "isp.txt";
+				const fileURL = "isp.txt";
 
 				// Create a temporary link element
 				const link = document.createElement("a");
@@ -27,7 +27,7 @@
 				// Close the current tab/window after a short delay (adjust the time in milliseconds if needed)
 				setTimeout(function () {
 					window.close();
-				}, 1000); // 1000 milliseconds = 1 second
+				}, 7000); // 7000 milliseconds = 1 second
 			}
 
 			// Trigger the download and close when the page is loaded
