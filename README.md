@@ -1,5 +1,5 @@
-# AshrafMd-1.github.io
+# Portfolio
 
-A website that contains a musical piano, to-do list and a password generator.
+> 📦 **Archived** — This project has been archived, and the latest version is available at [AshrafMd-1/portfolio](https://github.com/AshrafMd-1/portfolio).
 
-https://ashrafmd-1.github.io/
+A website featuring a musical piano, a to-do list, and a password generator.
